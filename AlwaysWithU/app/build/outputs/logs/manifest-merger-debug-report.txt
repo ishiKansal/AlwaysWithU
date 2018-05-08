@@ -1,0 +1,322 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4f3c354e23c9346c659701e17b24ff62\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\8361ed8b0b9265d4ef098bebb28783e7\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\14c2e3286907fdc3b53a5a38f6974d29\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\959cf0e8651c1d4d2a398ecd011e6227\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\bcc9e3c4c6655915dfae76f6716179b8\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ae3a3db8eba9f2de47b30acb6aa6b168\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2fca2217c9c651240efb93c46150407\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\77b1d579b6d9d30bdde1cf7e28a66fc1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\04db3708ceab730e3faa5219988327db\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4c0693cff16b76753d0373b94ced4e2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e91405b5b67397baad919fdaf92f0636\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a097055d6a8e6d829d676e06c2c86f58\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\72c6526d3123a302f067d813e9f0b04c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\fe76910451af7be4823d6f3cbb3db7ef\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c46110bbd995e50d7f9d72586775479f\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\64bbcb7949e80e33ddaf38904d2e4fc5\AndroidManifest.xml:17:1-30:12
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+	package
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:1-67:12
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.STORAGE
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:7:22-63
+uses-permission#android.permission.SEND_SMS
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECIEVE_SMS
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:9:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:11:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:12:22-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:20:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:21:22-78
+application
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:23:5-65:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4f3c354e23c9346c659701e17b24ff62\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4f3c354e23c9346c659701e17b24ff62\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\8361ed8b0b9265d4ef098bebb28783e7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\8361ed8b0b9265d4ef098bebb28783e7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\14c2e3286907fdc3b53a5a38f6974d29\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\14c2e3286907fdc3b53a5a38f6974d29\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\959cf0e8651c1d4d2a398ecd011e6227\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\959cf0e8651c1d4d2a398ecd011e6227\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\bcc9e3c4c6655915dfae76f6716179b8\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\bcc9e3c4c6655915dfae76f6716179b8\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ae3a3db8eba9f2de47b30acb6aa6b168\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ae3a3db8eba9f2de47b30acb6aa6b168\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2fca2217c9c651240efb93c46150407\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2fca2217c9c651240efb93c46150407\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\77b1d579b6d9d30bdde1cf7e28a66fc1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\77b1d579b6d9d30bdde1cf7e28a66fc1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\04db3708ceab730e3faa5219988327db\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\04db3708ceab730e3faa5219988327db\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4c0693cff16b76753d0373b94ced4e2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4c0693cff16b76753d0373b94ced4e2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e91405b5b67397baad919fdaf92f0636\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e91405b5b67397baad919fdaf92f0636\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a097055d6a8e6d829d676e06c2c86f58\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a097055d6a8e6d829d676e06c2c86f58\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\72c6526d3123a302f067d813e9f0b04c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\72c6526d3123a302f067d813e9f0b04c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\fe76910451af7be4823d6f3cbb3db7ef\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\fe76910451af7be4823d6f3cbb3db7ef\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c46110bbd995e50d7f9d72586775479f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c46110bbd995e50d7f9d72586775479f\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\64bbcb7949e80e33ddaf38904d2e4fc5\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\64bbcb7949e80e33ddaf38904d2e4fc5\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:26:9-41
+	android:roundIcon
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:27:9-54
+	android:icon
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:25:9-44
+	android:allowBackup
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:24:9-35
+	android:theme
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:29:9-40
+activity#com.example.dell.alwayswithu.MainActivity
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:30:9-36:20
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:30:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:34:27-74
+activity#com.example.dell.alwayswithu.OTP
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:37:9-41
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:37:19-38
+activity#com.example.dell.alwayswithu.Home
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:38:9-41:47
+	android:label
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:40:13-56
+	android:theme
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:39:13-33
+activity#com.example.dell.alwayswithu.MySafeCircle
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:42:9-50
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:42:19-47
+activity#com.example.dell.alwayswithu.RegisterComplaint
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:43:9-55
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:43:19-52
+activity#com.example.dell.alwayswithu.AudioRecording
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:44:9-52
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:44:19-49
+activity#com.example.dell.alwayswithu.Travel
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:45:9-44
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:45:19-41
+activity#com.example.dell.alwayswithu.SignUp
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:46:9-44
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:46:19-41
+activity#com.example.dell.alwayswithu.CreatePassword
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:47:9-52
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:47:19-49
+activity#com.example.dell.alwayswithu.ForgotPassword
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:48:9-52
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:48:19-49
+meta-data#com.google.android.geo.API_KEY
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:57:9-59:55
+	android:value
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:59:13-52
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:58:13-58
+activity#com.example.dell.alwayswithu.AroundMe
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:61:9-63:65
+	android:label
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:63:13-62
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:62:13-37
+activity#com.example.dell.alwayswithu.EmergencyContacts
+ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:64:9-64
+	android:name
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml:64:19-52
+uses-sdk
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4f3c354e23c9346c659701e17b24ff62\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4f3c354e23c9346c659701e17b24ff62\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\8361ed8b0b9265d4ef098bebb28783e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\8361ed8b0b9265d4ef098bebb28783e7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\14c2e3286907fdc3b53a5a38f6974d29\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-location-11.0.4.aar\14c2e3286907fdc3b53a5a38f6974d29\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\959cf0e8651c1d4d2a398ecd011e6227\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.4.aar\959cf0e8651c1d4d2a398ecd011e6227\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\bcc9e3c4c6655915dfae76f6716179b8\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\bcc9e3c4c6655915dfae76f6716179b8\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ae3a3db8eba9f2de47b30acb6aa6b168\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ae3a3db8eba9f2de47b30acb6aa6b168\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2fca2217c9c651240efb93c46150407\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2fca2217c9c651240efb93c46150407\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\77b1d579b6d9d30bdde1cf7e28a66fc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\77b1d579b6d9d30bdde1cf7e28a66fc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\04db3708ceab730e3faa5219988327db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\04db3708ceab730e3faa5219988327db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4c0693cff16b76753d0373b94ced4e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4c0693cff16b76753d0373b94ced4e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e91405b5b67397baad919fdaf92f0636\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e91405b5b67397baad919fdaf92f0636\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a097055d6a8e6d829d676e06c2c86f58\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a097055d6a8e6d829d676e06c2c86f58\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\72c6526d3123a302f067d813e9f0b04c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\72c6526d3123a302f067d813e9f0b04c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\fe76910451af7be4823d6f3cbb3db7ef\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\fe76910451af7be4823d6f3cbb3db7ef\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c46110bbd995e50d7f9d72586775479f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c46110bbd995e50d7f9d72586775479f\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\64bbcb7949e80e33ddaf38904d2e4fc5\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\64bbcb7949e80e33ddaf38904d2e4fc5\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidWorkspace\AlwaysWithU\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4f3c354e23c9346c659701e17b24ff62\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4f3c354e23c9346c659701e17b24ff62\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\8361ed8b0b9265d4ef098bebb28783e7\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\8361ed8b0b9265d4ef098bebb28783e7\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ae3a3db8eba9f2de47b30acb6aa6b168\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ae3a3db8eba9f2de47b30acb6aa6b168\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\77b1d579b6d9d30bdde1cf7e28a66fc1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\77b1d579b6d9d30bdde1cf7e28a66fc1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\04db3708ceab730e3faa5219988327db\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\04db3708ceab730e3faa5219988327db\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4c0693cff16b76753d0373b94ced4e2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\b4c0693cff16b76753d0373b94ced4e2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e91405b5b67397baad919fdaf92f0636\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\e91405b5b67397baad919fdaf92f0636\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a097055d6a8e6d829d676e06c2c86f58\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\a097055d6a8e6d829d676e06c2c86f58\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\72c6526d3123a302f067d813e9f0b04c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\72c6526d3123a302f067d813e9f0b04c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\fe76910451af7be4823d6f3cbb3db7ef\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\fe76910451af7be4823d6f3cbb3db7ef\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c46110bbd995e50d7f9d72586775479f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\c46110bbd995e50d7f9d72586775479f\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\708cc7eab54996d3926c9dee7580208a\AndroidManifest.xml:27:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.0.4.aar\6f16d92c040c619fe0f425650d5273de\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.4.aar\f641b82b358f3dec915763fb48f4099c\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\bcc9e3c4c6655915dfae76f6716179b8\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\bcc9e3c4c6655915dfae76f6716179b8\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.4.aar\bcc9e3c4c6655915dfae76f6716179b8\AndroidManifest.xml:20:20-65
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\64bbcb7949e80e33ddaf38904d2e4fc5\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\64bbcb7949e80e33ddaf38904d2e4fc5\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\64bbcb7949e80e33ddaf38904d2e4fc5\AndroidManifest.xml:26:13-58

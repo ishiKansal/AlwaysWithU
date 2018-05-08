@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:background="@drawable/bgimage">
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/rctoolbar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:onClick="backArrowAroundMe"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Around Me"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:layout_marginStart="90dp"
+        android:textAlignment="center"
+        />
+</android.support.v7.widget.Toolbar>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="@color/colorWhite"
+        android:hint="Search Location"
+        android:textColorHint="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:textSize="25sp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:onClick="searchLocation"
+        android:text="Search"
+        android:fontFamily="casual"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:background="@drawable/button"/>
+
+</LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.dell.alwayswithu.AroundMe" />
+
+</LinearLayout>

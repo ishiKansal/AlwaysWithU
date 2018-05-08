@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+    tools:context="com.example.dell.alwayswithu.AudioRecording">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/rctoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:onClick="backArrowAudio"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audio Recording"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layout_marginStart="90dp"
+            android:textAlignment="center" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/microphone"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:text="Record"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button"
+                    android:id="@+id/btnrecord"
+                    android:layout_marginStart="15dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="37dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="STOP"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button"
+                    android:id="@+id/btnstop"
+                    android:layout_alignTop="@+id/btnrecord"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Play"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button"
+                    android:id="@+id/btnplay"
+                    android:layout_marginEnd="15dp"
+                    android:layout_alignTop="@+id/btnstop"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+                <Button
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:text="STOP PLAYING RECORDING "
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button"
+                    android:layout_margin="30dp"
+                    android:id="@+id/btnstopplaying"
+                    android:layout_below="@+id/btnstop"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

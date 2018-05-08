@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/timer"
+            android:icon="@drawable/ic_timer_black_24dp"
+            android:title="Help Me Title"
+            app:actionLayout="@layout/switch_btn" />
+
+        <item
+            android:id="@+id/nav_ec"
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:title="Emergency Contacts"
+            android:onClick="emergencyContacts"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="Logout"
+            android:onClick="logout" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"
+                android:onClick="shareIt"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

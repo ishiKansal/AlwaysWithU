@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.alwayswithu.Home"
+    tools:showIn="@layout/app_bar_home"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnregister"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/register"
+                    android:onClick="register"
+                    android:background="@drawable/circular_button" />
+
+                <TextView
+                    android:id="@+id/tvrc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnregister"
+                    android:text="Register Complaint"
+                    android:textSize="15sp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="casual"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btntravel"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/textView"
+                    android:background="@drawable/circular_button"
+                    android:onClick="travel"
+                    android:src="@drawable/taxi" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="Travel With U"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/btnSOS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/circular_button"
+                android:onClick="sos"
+                android:src="@drawable/sos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help Me !!"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:fontFamily="casual"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnsafeCircle"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/circular_button"
+                    android:onClick="safeCircle"
+                    android:src="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/tvsc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnsafeCircle"
+                    android:text="My Safe Circle"
+                    android:textSize="15sp"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btnaroundme"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="150dp"
+                    android:src="@drawable/around"
+                    android:onClick="aroundMe"
+                    android:background="@drawable/circular_button"
+                    android:layout_toRightOf="@+id/btnsafeCircle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnsafeCircle"
+                    android:layout_toRightOf="@+id/tvsc"
+                    android:layout_marginStart="165dp"
+                    android:text="Around Me"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="casual"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.alwayswithu.MySafeCircle"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+    android:gravity="center">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/rctoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:onClick="safeCircleBackArrow"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Safe Circle"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layout_marginStart="90dp"
+            android:textAlignment="center"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etSC_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="   Name 1"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="60dp"
+                android:textColor="@color/colorWhite"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etc1"
+                    android:hint="   Contact 1"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="70dp"
+                    android:textColor="@color/colorWhite"
+                    />
+
+                <Button
+                    android:id="@+id/btncontact1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignBaseline="@+id/etc1"
+                    android:layout_alignBottom="@+id/etc1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/button"
+                    android:fontFamily="casual"
+                    android:onClick="call_contact"
+                    android:text="........"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/etSC_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="   Name 2"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="60dp"
+                android:textColor="@color/colorWhite"
+
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etc2"
+                    android:hint="   Contact 2"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="70dp"
+                    android:textColor="@color/colorWhite"
+                    />
+
+                <Button
+                    android:id="@+id/btncontact2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignBaseline="@+id/etc2"
+                    android:layout_alignBottom="@+id/etc2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp"
+                    android:text="........"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:onClick="call_contact"
+                    android:fontFamily="casual"
+                    />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/etSC_name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="   Name 3"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="60dp"
+                android:textColor="@color/colorWhite"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etc3"
+                    android:hint="   Contact 3"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="70dp"
+                    android:textColor="@color/colorWhite"
+                    />
+
+                <Button
+                    android:id="@+id/btncontact3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignBaseline="@+id/etc3"
+                    android:layout_alignBottom="@+id/etc3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp"
+
+                    android:text="........"
+                    android:onClick="call_contact"
+
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+                    />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/etSC_name4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="   Name 4"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="60dp"
+                android:textColor="@color/colorWhite"
+
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etc4"
+                    android:hint="   Contact 4"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="70dp"
+                    android:textColor="@color/colorWhite"
+                    />
+
+                <Button
+                    android:id="@+id/btncontact4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignBaseline="@+id/etc4"
+                    android:layout_alignBottom="@+id/etc4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp"
+                    android:text="........"
+                    android:textColor="@color/colorWhite"
+                    android:onClick="call_contact"
+                    android:background="@drawable/button"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:fontFamily="casual" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnsavecontacts"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Save contacts"
+                android:textSize="20sp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/button"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:onClick="save_contacts"
+                android:fontFamily="casual"
+                android:layout_marginBottom="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

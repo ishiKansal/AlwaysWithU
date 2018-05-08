@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgimage"
+    tools:context="com.example.dell.alwayswithu.SignUp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/signup_toolbar"></include>
+
+            <EditText
+                android:layout_width="360dp"
+                android:id="@+id/edtName"
+                android:layout_height="wrap_content"
+                android:hint="your Name"
+                android:textColorHint="@color/colorPrimary"
+                android:fontFamily="casual"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:inputType="text"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:hint="your E-mail id"
+                android:textColorHint="@color/colorPrimary"
+                android:fontFamily="casual"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                android:layout_gravity="center" />
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:hint="contact number"
+                android:textColorHint="@color/colorPrimary"
+                android:fontFamily="casual"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:inputType="phone"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center" />
+
+            <RelativeLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:layout_marginStart="20dp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:id="@+id/rbtnm"
+                        android:buttonTint="@color/colorPrimary"
+                        android:layout_marginStart="130dp"
+                        android:textColor="@color/colorPrimary"/>
+                    <RadioButton
+                        android:id="@+id/rbtnf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="130dp"
+                        android:fontFamily="casual"
+                        android:text="Female"
+                        android:buttonTint="@color/colorPrimary"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RadioGroup>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <EditText
+                        android:id="@+id/etdob"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="360dp"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:hint="Date of Birth"
+                        android:focusable="false"
+
+                        android:textColorHint="@color/colorPrimary"
+                        android:fontFamily="casual"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:inputType="date" />
+
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="360dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColorHint="@color/colorPrimary"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/edtPassword1"
+                    android:layout_width="360dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:textColorHint="@color/colorPrimary"
+                    android:fontFamily="casual"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="State"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginStart="30dp" />
+
+                <Spinner
+
+                    android:id="@+id/stateSpinner"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/spinner_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="City"
+                        android:textColor="@color/colorPrimary"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_marginStart="30dp" />
+                    <Spinner
+                        android:id="@+id/citySpinner"
+                        android:layout_marginStart="110dp"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/spinner_design"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:layout_marginBottom="20dp"/>
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btnSubmit"
+                    android:layout_width="185dp"
+                    android:layout_height="40dp"
+                    android:text="SUBMIT"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:onClick="submit"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/button"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
