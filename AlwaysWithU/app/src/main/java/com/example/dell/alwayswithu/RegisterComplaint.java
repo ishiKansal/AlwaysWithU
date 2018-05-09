@@ -77,7 +77,7 @@ public class RegisterComplaint extends AppCompatActivity {
                 RC_i2 = new Intent(Intent.ACTION_SEND_MULTIPLE);
                 RC_i2.setType("*/*");
                 RC_i2.putExtra(Intent.EXTRA_SUBJECT, "Reporting Incident from ALWAYS WITH U");
-                RC_i2.putExtra(Intent.EXTRA_EMAIL, new String[]{"ishakansal934@gmail.com"});
+                RC_i2.putExtra(Intent.EXTRA_EMAIL, new String[]{"Alwayswithumanger@gmail.com"});
                 RC_i2.putExtra(Intent.EXTRA_TEXT, multiple_inf + " " + multiple_name);
 
                 /*for (int i = 0; i < clipData.getItemCount(); i++) {
@@ -204,7 +204,7 @@ public class RegisterComplaint extends AppCompatActivity {
             else{
                 Intent RC_i3=new Intent(Intent.ACTION_SEND);
                 RC_i3.setType("plain/text");
-                RC_i3.putExtra(Intent.EXTRA_EMAIL,new String[]{"ishakansal934@gmail.com"});
+                RC_i3.putExtra(Intent.EXTRA_EMAIL,new String[]{"Alwayswithumanger@gmail.com"});
                 RC_i3.putExtra(Intent.EXTRA_SUBJECT,"Reporting Incident from ALWAYS WITH U");
                 RC_i3.putExtra(Intent.EXTRA_TEXT,inf+" "+nameNumber);
                 startActivity(Intent.createChooser(RC_i3,"Choose app to Report an incident (prefer Gmail) "));
